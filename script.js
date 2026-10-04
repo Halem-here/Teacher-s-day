@@ -466,7 +466,7 @@
   *
   The lock confirmed one thing: the five digits you entered are correct.
   It cannot tell whether you solved the riddle, were given the answer,
-  or simply guessed.
+  or simply used AI.
   The result is identical.
   So what, exactly, was being tested???
   *
