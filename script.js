@@ -465,7 +465,8 @@
 
           *
           The lock confirmed one thing: the five digits you entered are correct.
-          It cannot tell whether you solved the riddle, were given the answer, or simply guessed.
+          It cannot tell whether you solved the riddle, were given the answer,
+          or simply guessed.
           The result is identical.
           So what, exactly, was being tested???
           *
