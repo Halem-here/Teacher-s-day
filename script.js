@@ -471,7 +471,7 @@
   So what, exactly, was being tested???
   *
 
-          ~THANKS~
+       ~THANKS~
 </pre></p>
         </div>
       </div>
