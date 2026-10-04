@@ -19,6 +19,7 @@ window.TEACHERS = [
     ],
     thanks: "Thank you, Sir. We learned a lot from you.",
     signoff: "Mugi",
+    //AREY CHEATING MAT KRO! 
     hash: "7af408386c80608e93513e2e85e32e6113ac3f28edfff4df15d583378130666e"
   },
   //agha part
@@ -43,6 +44,7 @@ window.TEACHERS = [
     ],
     thanks: "Thank you for everything you've taught us, Sir. We really appreciate it.",
     signoff: "Mugi",
+    //AREY CHEATING MAT KRO!
     hash: "97adfea0bf964c4d89d9dfc4c0d43dc9fefd06fcf88f4fa11cfaea78fe166f4b"
   },
   //solo part
@@ -68,6 +70,7 @@ window.TEACHERS = [
     ],
     thanks: "Thanks for showing us how to think. We'll keep exploring.",
     signoff: "with respect, Mugi",
+    //AREY CHEATING MAT KRO!
     hash: "535b692d3d84670a907a5a4a4e82029014e3fd2baf21574d4f20c27d8ba29332"
   },
 //unknown part
@@ -91,6 +94,7 @@ window.TEACHERS = [
     ],
     thanks: "Thank you for the standard you set. It's noted, and appreciated.",
     signoff: "Mugi",
+    //AREY CHEATING MAT KRO!
     hash: "fedbc99e9c3bbb7db63fafd94f14851eb6c298a4a74fc8aab1e01ef39c5ac844"
   }
 ];
