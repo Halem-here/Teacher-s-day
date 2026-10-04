@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Happy Teachers' Day</title>
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#08090c">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2308090c'/%3E%3Cpath d='M8 21l6-5-6-5M17 22h8' fill='none' stroke='%23e8e9ec' stroke-width='2.2'/%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;600;800&family=Barlow:wght@400;500&family=Barlow+Condensed:wght@500;600&family=Fira+Code:wght@400;500&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-theme="landing">
+  <canvas id="fx" aria-hidden="true"></canvas>
+
+  <main id="app">
+
+    <!-- pick a teacher -->
+    <section id="landing" class="screen on" aria-labelledby="landing-title">
+      <h1 id="landing-title">Happy Teachers' Day</h1>
+      <p class="lede">A small appreciation project, made especially for you.</p>
+      <p class="prompt">select your profile<span class="caret" aria-hidden="true"></span></p>
+      <ol class="roster" id="roster"></ol>
+      <p class="small">5 October</p>
+      <noscript><p class="small">This page needs JavaScript.</p></noscript>
+    </section>
+
+    <!-- 2. password -->
+    <section id="gate" class="screen" hidden aria-labelledby="gate-title">
+      <button class="link" id="gate-back" type="button">← back</button>
+      <p class="who" id="gate-who"></p>
+      <h2 id="gate-title">ACCESS REQUIRED</h2>
+      <p class="gate-sub">Enter your password to continue.</p>
+      <form id="gate-form" autocomplete="off" novalidate>
+        <label class="sr-only" for="gate-pass">Password</label>
+        <div class="row">
+          <input id="gate-pass" type="password" placeholder="***************"
+                 autocomplete="new-password" autocapitalize="off" autocorrect="off" spellcheck="false">
+          <button id="gate-btn" type="submit">ACCESS</button>
+        </div>
+        <p class="error" id="gate-error" role="alert"></p>
+      </form>
+    </section>
+
+    <!-- 3. the teacher's page -->
+    <section id="page" class="screen" hidden></section>
+    
+
+  </main>
+
+  <script src="content.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
