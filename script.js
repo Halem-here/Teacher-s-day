@@ -459,7 +459,19 @@
           <p class="ul-rt">Delete every space and every slash from the line above.<br>Now decode what remains.</p>
           <p class="ul-rt">If it cannot be decoded, ask yourself:<br>What slash and space was supposed to be removed?</p>
           <p class="ul-rt">Then answer one final question:<br>Was it really "NOTHING"?</p>
-          <p class="ul-rt">Whatever your answer is, send it in the general chat like this>> #sudo(your answer). ~THANKS~</p>
+          <p class="ul-rt">Whatever your answer is, send it in the general chat like this>> #sudo(your answer). Did you know riddles are the best way to know someone!?</p>
+          <p class="ul-rt"><pre>
+
+
+          *
+          The lock confirmed one thing: the five digits you entered are correct.
+          It cannot tell whether you solved the riddle, were given the answer, or simply guessed.
+          The result is identical.
+          So what, exactly, was being tested???
+          *
+
+          ~THANKS~
+</pre></p>
         </div>
       </div>
       <footer class="ul-foot">if you want more webpages like this....contact on بارہ ارب تین سو پینتالیس ملین چھ سو اٹھتر ہزار نو سو دس</footer>`;
