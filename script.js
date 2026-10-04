@@ -20,7 +20,6 @@
 
 
   //Hash password sys 
-  //yahan se hash ka source lene aye ho?
   function sha256Fallback(str) {
     const rotr = (v, n) => (v >>> n) | (v << (32 - n));
     const K = [], H = [];
@@ -183,7 +182,6 @@
 
 
  //start the pgs
-  //kaya bakwas skull bnaya hay
 
   const SKULL = `
     <svg class="nq-skull" viewBox="0 0 200 236" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round">
@@ -411,7 +409,7 @@
 
   const riddleHTML = (t) => `
     <div class="rd" data-teacher="${esc(t.id)}">
-      <h2 class="rd-h">The Riddle <small>Don't use AI please!</small></h2>
+      <h2 class="rd-h">The Riddle <small>Don't use AI man!</small></h2>
       <div class="rd-box">
         <p class="rd-lock">🔐 THE LOCK HAS 5 DIGITS</p>
         <p class="rd-digits">0 1 2 3 4 5 6 7 8 9</p>
@@ -423,6 +421,7 @@
           <li>The sum of all five digits is 28.</li>
           <li>The code contains exactly two odd digits.</li>
         </ol>
+        <p class="rd-access">ACCESS: _ _ _ _ _</p>
       </div>
       <div class="rd-play">
         <p class="rd-info">You have 5 attempts to unlock the PIN and reveal the hidden message.</p>
@@ -455,6 +454,13 @@
       <div class="ul-main">
         <h2 id="ul-title" class="ul-msg">Congratulations, you successfully unlocked the lock.</h2>
         <p class="ul-morse">.-- .... -.-- / .. ... / - .... . .-. . / ... --- -- . - .... .. -. --. / .-. .- - .... . .-. / - .... .- -. / -. --- - .... .. -. --. ..--..</p>
+        <div class="ul-riddle">
+          <h3 class="ul-rh">RIDDLE 2 — THE GAPS</h3>
+          <p class="ul-rt">Delete every space and every slash from the line above.<br>Now decode what remains.</p>
+          <p class="ul-rt">If it cannot be decoded, ask yourself:<br>What slash and space was supposed to be removed?</p>
+          <p class="ul-rt">Then answer one final question:<br>Was it really "NOTHING"?</p>
+          <p class="ul-rt">Whatever your answer is, send it in the general chat like this>> #sudo(your answer). ~THANKS~</p>
+        </div>
       </div>
       <footer class="ul-foot">if you want more webpages like this....contact on بارہ ارب تین سو پینتالیس ملین چھ سو اٹھتر ہزار نو سو دس</footer>`;
     const onKey = (e) => { if (e.key === 'Escape') close(); };
