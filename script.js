@@ -20,6 +20,7 @@
 
 
   //Hash password sys 
+  //yahan se hash ka source lene aye ho?
   function sha256Fallback(str) {
     const rotr = (v, n) => (v >>> n) | (v << (32 - n));
     const K = [], H = [];
@@ -182,6 +183,7 @@
 
 
  //start the pgs
+  //kaya bakwas skull bnaya hay
 
   const SKULL = `
     <svg class="nq-skull" viewBox="0 0 200 236" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round">
