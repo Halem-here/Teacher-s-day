@@ -421,6 +421,7 @@
           <li>The sum of all five digits is 28.</li>
           <li>The code contains exactly two odd digits.</li>
         </ol>
+        <p class="rd-access">ACCESS: _ _ _ _ _</p>
       </div>
       <div class="rd-play">
         <p class="rd-info">You have 5 attempts to unlock the PIN and reveal the hidden message.</p>
@@ -459,19 +460,15 @@
           <p class="ul-rt">If it cannot be decoded, ask yourself:<br>What slash and space was supposed to be removed?</p>
           <p class="ul-rt">Then answer one final question:<br>Was it really "NOTHING"?</p>
           <p class="ul-rt">Whatever your answer is, send it in the general chat like this>> #sudo(your answer). Did you know riddles are the best way to know someone!?</p>
-          <p class="ul-rt"><pre>
-
-
-  *
+          <p class="ul-rt ul-rq">*
   The lock confirmed one thing: the five digits you entered are correct.
   It cannot tell whether you solved the riddle, were given the answer,
   or simply used AI.
   The result is identical.
   So what, exactly, was being tested???
-  *
+*
 
-  ~THANKS~
-</pre></p>
+  ~THANKS~</p>
         </div>
       </div>
       <footer class="ul-foot">if you want more webpages like this....contact on بارہ ارب تین سو پینتالیس ملین چھ سو اٹھتر ہزار نو سو دس</footer>`;
