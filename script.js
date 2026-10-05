@@ -421,7 +421,6 @@
           <li>The sum of all five digits is 28.</li>
           <li>The code contains exactly two odd digits.</li>
         </ol>
-        <p class="rd-access">ACCESS: _ _ _ _ _</p>
       </div>
       <div class="rd-play">
         <p class="rd-info">You have 5 attempts to unlock the PIN and reveal the hidden message.</p>
