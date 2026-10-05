@@ -409,7 +409,7 @@
 
   const riddleHTML = (t) => `
     <div class="rd" data-teacher="${esc(t.id)}">
-      <h2 class="rd-h">The Riddle <small>Don't use AI man!</small></h2>
+      <h2 class="rd-h">The Riddle <small>Don't use AI please!</small></h2>
       <div class="rd-box">
         <p class="rd-lock">🔐 THE LOCK HAS 5 DIGITS</p>
         <p class="rd-digits">0 1 2 3 4 5 6 7 8 9</p>
